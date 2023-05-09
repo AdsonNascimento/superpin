@@ -84,7 +84,10 @@ function Projetos() {
             </div>
           </div>
 
-          <button id="prev" onClick={(event) => {
+          <button 
+          id="prev" 
+          aria-label='voltar'
+          onClick={(event) => {
             const gap = 30;
             const carousel = document.getElementById("carousel");
             // const content = document.getElementById("content");
@@ -104,7 +107,10 @@ function Projetos() {
             </svg>
           </button>
 
-          <button id="next" onClick={(event) => {
+          <button 
+          id="next" 
+          aria-label='avançar'
+          onClick={(event) => {
             const gap = 30;
             const carousel = document.getElementById("carousel");
             // const content = document.getElementById("content");
