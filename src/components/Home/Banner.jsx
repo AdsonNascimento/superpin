@@ -1,7 +1,7 @@
 import './Banner.scss';
 import 'animate.css';
-import BannerMobile from '../../assets/banner/banner-mobile.svg';
-import BannerDesktop from '../../assets/banner/banner.svg';
+import BannerMobile from '../../assets/banner/banner-mobile.webp';
+import BannerDesktop from '../../assets/banner/banner.webp';
 
 function Banner() {
   return (
