@@ -53,7 +53,7 @@ function Equipe() {
               </li>
               <li>
                 <Check className='check' size={18} color="#ffffff" />
-                <p>+40 torres de apartamentos entregues e 4 supermecados</p>
+                <p>+40 torres de apartamentos entregues e 4 supermercados</p>
               </li>
             </ul>
           </div>
@@ -71,7 +71,7 @@ function Equipe() {
               </li>
               <li>
                 <Check className='check' size={18} color="#ffffff" />
-                <p>Resposável administrativo e financeiro</p>
+                <p>Responsável administrativo e financeiro</p>
               </li>
             </ul>
           </div>

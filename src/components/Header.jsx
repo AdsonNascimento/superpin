@@ -92,8 +92,8 @@ function Header() {
           <ul>
             <li><a href="/">Início</a></li>
             <li><a href="/#sobre">Sobre a Superpin</a></li>
-            <li><a href="/#projetos">Projetos</a></li>
-            <li><a href="/#contatos">Contatos</a></li>
+            <li><a href="/#marcas">Projetos</a></li>
+            <li><a href="/#footer">Contatos</a></li>
           </ul>
 
           <a className='btn-p' href="https://api.whatsapp.com/send/?phone=55558422261346&text=Gostaria%20de%20tirar%20uma%20d%C3%BAvida!&app_absent=0" target='_blanck'>Entre em contato</a>

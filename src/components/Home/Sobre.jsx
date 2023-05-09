@@ -11,8 +11,8 @@ function Sobre() {
       <div className="content-align">
         <div className='about-text'>
           <h2>Sobre a Superpin</h2>
-          <p>Superpin é a solução inteligênte para sua obra!</p>
-          <p>Dispomos de um time especializado, com gerenciamento e execução em alta performace para entregarmos o melhor resultado.</p>
+          <p>Superpin é a solução inteligente para sua obra!</p>
+          <p>Dispomos de um time especializado, com gerenciamento e execução em alta performance para entregarmos o melhor resultado.</p>
 
           <ul>
             <li>
