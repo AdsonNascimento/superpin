@@ -1,0 +1,150 @@
+#equipe {
+  background-color: var(--yellow-2);
+
+  .degrade {
+    background-image: linear-gradient(calc(-2deg),
+        var(--yellow-2) 0% 49%,
+        #fff 51% 100%,
+      );
+    height: 15rem;
+    width: 100vw;
+  }
+
+  .content-align {
+    flex-direction: column;
+    align-items: center;
+
+    .equipe-text {
+      text-align: center;
+
+      img {
+        width: 5.5rem;
+        margin-bottom: 2rem;
+      }
+
+    }
+
+    .equipe-cards {
+      width: 80%;
+      display: flex;
+      justify-content: space-between;
+      margin: auto;
+      margin-bottom: 3rem;
+
+      .card {
+        padding: 4rem 2rem;
+        border-radius: 1rem;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+        width: 27%;
+        background-color: #fff;
+
+        .header-card {
+          display: flex;
+          flex-direction: column;
+          align-items: left;
+          padding-left: 2rem;
+          gap: 1rem;
+          margin-bottom: 3rem;
+          width: 100%;
+
+          img {
+            width: 9rem;
+            border-radius: 50%;
+          }
+
+          h3 {
+            font-size: calc(1.5rem + .7vw);
+          }
+
+          span {
+            font-size: 1.25rem;
+            font-weight: 600;
+            color: rgb(116, 116, 116);
+          }
+        }
+
+        ul {
+          display: grid;
+          gap: 2rem;
+
+          li {
+            display: flex;
+            align-items: center;
+
+            p {
+              font-size: calc(1rem + .4vw);
+              font-weight: 300;
+              color: rgb(116, 116, 116);
+              position: relative;
+              margin-left: 2.5rem;
+            }
+
+            .x {
+              background-color: red;
+              border-radius: 50%;
+              padding: 0.2rem;
+              position: absolute;
+            }
+
+            .minus {
+              background-color: rgb(255, 187, 0);
+              border-radius: 50%;
+              padding: 0.2rem;
+              position: absolute;
+            }
+
+            .check {
+              background-color: var(--blue-dark);
+              border-radius: 50%;
+              padding: 0.2rem;
+              position: absolute;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  #equipe {
+    .content-align {
+      .equipe-cards {
+        width: 90%;
+
+        .card {
+          width: 30%;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 900px) {
+  #equipe {
+    .content-align {
+      .equipe-cards {
+        flex-direction: column;
+        align-items: center;
+        gap: 5rem;
+        width: 90%;
+
+        .card {
+          width: 60%;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 900px) {
+  #equipe {
+    .content-align {
+      .equipe-cards {
+        .card {
+          width: 90%;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,16 @@
+a.flut-button {
+  position: fixed;
+  bottom: 3rem;
+  right: 3rem;
+  transition: .3s;
+
+  :hover {
+    filter: drop-shadow(0 0 3px var(--blue-dark));
+    transform: scale(1.05);
+  }
+
+  img {
+    width: 4.5rem;
+    height: 4.5rem;
+  }
+}

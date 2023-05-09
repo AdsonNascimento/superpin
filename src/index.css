@@ -1,0 +1,129 @@
+:root {
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  list-style: none;
+  color: black;
+}
+
+html header a,
+html body a,
+html footer a {
+  text-decoration: none; 
+}
+
+html {
+  /*==== cores bases ====*/
+  --pard: #eaf1df;
+  --light-blue: #00d5ff;
+  --blue: #6cafbd;
+  --blue-2: #4575cf;
+  --blue-dark: #2f4f8c;
+  --yellow: #ebb62a;
+  --yellow-2: #EAF1DF;
+  --orange: #e18720;
+
+  /*==== grey ====*/
+  --grey-darck: #4d5e77;
+  --grey-blue: #a1b2cd;
+  --grey-medium: #eaecf2;
+  --grey-light: #e5eaf1;
+  --white-smoke: #ffffff;
+
+  /*==== fonts ====*/
+  font-family: "Montserrat", sans-serif;
+
+  font-size: 62.5%; /* tamanho padrão do navegador vira 10px*/
+
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+main {
+  margin-top: 5rem;
+}
+
+.content-align {
+  display: flex;
+  gap: 4rem;
+
+  margin: auto;
+  width: 90vw;
+
+  padding: 4rem 0;
+}
+
+.content-align h2 {
+  font-size: calc(1.5rem + 1vw);
+  color: rgb(56, 56, 56);
+  margin-bottom: 4rem;
+  text-align: center;
+}
+
+.content-align p {
+  font-size: calc(1rem + .6vw);
+  font-weight: 600;
+  color: rgb(116, 116, 116);
+}
+
+.btn-p {
+  background-color: var(--orange);
+  color: white;
+  padding: 1.5rem;
+  font-size: 1.5rem;
+  font-weight: 500;
+  border-radius: 5rem;
+}
+
+.btn-p:hover,
+.btn-p:focus {
+  box-shadow: 0px 0px 15px rgba(225, 135, 32);
+  outline: none;
+}
+
+.blur {
+  filter: blur(1.25px);
+}
+
+.fade-in {animation: 0.5s fade-in;}
+@keyframes fade-in {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+.fade-out {animation: .5s fade-out;}
+@keyframes fade-out {
+  from {opacity: 1;}
+  to {opacity: 0;}
+}
+
+@keyframes lowLeft {
+  from {margin-left: -25%; opacity: 0;}
+  to {margin-left: 0%; opacity: 1;}
+}
+
+@keyframes lowUp {
+  from {margin-top: -25%; opacity: 0;}
+  to {margin-top: 0%; opacity: 1;}
+}
+
+@keyframes scale {
+  0% {scale: 1;}
+  50% {scale: 1.04;}
+  100% {scale: 1;}
+}
+
+@keyframes toLeft {
+  from {margin-left: -200%;}
+  to {margin-left: 0%;}
+}
