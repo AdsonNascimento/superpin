@@ -5,6 +5,7 @@ import './index.css'
 
 import Home from './pages/Home.jsx'
 import SobreSuperpin from './pages/SobreSuperpin.jsx'
+import Galeria from './pages/Galeria.jsx'
 
 import {
   createBrowserRouter,
@@ -23,6 +24,10 @@ const router = createBrowserRouter([
       {
         path: 'sobre',
         element: <SobreSuperpin />
+      },
+      {
+        path: 'galeria',
+        element: <Galeria />
       }
     ],
   },

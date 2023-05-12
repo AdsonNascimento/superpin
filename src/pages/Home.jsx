@@ -2,7 +2,7 @@ import Banner from '../components/Home/Banner.jsx'
 import Sobre from '../components/Home/Sobre.jsx'
 import Marcas from '../components/Home/Marcas.jsx'
 import Projetos from '../components/Home/Projetos.jsx'
-import Vamos from '../components/Home/Vamos.jsx'
+import Vamos from '../components/Vamos.jsx'
 import FlutButton from '../components/FlutButton.jsx'
 
 function App() {

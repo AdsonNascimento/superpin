@@ -1,7 +1,7 @@
 import './Vamos.scss'
-import icon1 from '../../assets/icon1-superpin.svg'
-import icon2 from '../../assets/icon2-superpin.svg'
-import icon3 from '../../assets/icon3-superpin.svg'
+import icon1 from '../assets/icon1-superpin.svg'
+import icon2 from '../assets/icon2-superpin.svg'
+import icon3 from '../assets/icon3-superpin.svg'
 
 function Vamos() {
 

@@ -17,35 +17,35 @@ function Sobre() {
           <ul>
             <li>
               <PaintBrushBroad size={20} color="#ffffff" className='sobre-before-icon' />
-              <a href='https://superpin.com.br/pintura.html'>
+              <Link to='/galeria'>
                 Serviços de pintura
                 <ArrowRight size={18} color="#2f4f8c" />
-              </a>
+              </Link>
             </li>
             <li>
               <Virus size={20} color="#ffffff" className='sobre-before-icon' />
-              <a href='https://superpin.com.br/limpeza.html'>
+              <Link to='/galeria'>
                 Serviços de limpeza
                 <ArrowRight size={18} color="#2f4f8c" />
-              </a>
+              </Link>
             </li>
             <li>
               <Drop size={20} color="#ffffff" className='sobre-before-icon' />
-              <a href='https://superpin.com.br/impermeabilizacao.html'>
+              <Link to='/galeria'>
                 Impermeabilização
                 <ArrowRight size={18} color="#2f4f8c" />
-              </a>
+              </Link>
             </li>
             <li>
               <Buildings size={20} color="#ffffff" className='sobre-before-icon' />
-              <a href='https://superpin.com.br/fachada.html'>
+              <Link to='/galeria'>
                 Manutenção de fachada
                 <ArrowRight size={18} color="#2f4f8c" />
-              </a>
+              </Link>
             </li>
           </ul>
 
-          <Link className='btn-p' to="sobre">Porque e existimos</Link>
+          <Link className='btn-p' to="sobre">Porque existimos</Link>
 
         </div>
         <video
