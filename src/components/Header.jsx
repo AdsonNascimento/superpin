@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react';
+import { Link } from 'react-router-dom';
 import logoPrimary from '../assets/logo-primaria.svg';
 import './Header.scss';
 
@@ -84,19 +85,19 @@ function Header() {
   return (
     <header>
       <nav>
-        <a href="/">
+        <Link to="/">
           <img className='logo-primary' src={logoPrimary} alt="Logo SuperPin" />
-        </a>
+        </Link>
 
         <div className='side-menu' onClick={handleClickMenu}>
           <ul>
-            <li><a href="/">Início</a></li>
+            <li><Link to="/">Início</Link></li>
             <li><a href="/#sobre">Sobre a Superpin</a></li>
             <li><a href="/#marcas">Projetos</a></li>
             <li><a href="/#footer">Contatos</a></li>
           </ul>
 
-          <a className='btn-p' href="https://api.whatsapp.com/send/?phone=55558422261346&text=Gostaria%20de%20tirar%20uma%20d%C3%BAvida!&app_absent=0" target='_blanck'>Entre em contato</a>
+          <a className='btn-p' target='_blank' rel="noreferrer" href="https://api.whatsapp.com/send/?phone=55558422261346&text=Gostaria%20de%20tirar%20uma%20d%C3%BAvida!&app_absent=0">Entre em contato</a>
         </div>
 
 

@@ -45,7 +45,7 @@ function Sobre() {
             </li>
           </ul>
 
-          <Link className='btn-p' to="/sobre">Porque e existimos</Link>
+          <Link className='btn-p' to="sobre">Porque e existimos</Link>
 
         </div>
         <video

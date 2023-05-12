@@ -14,7 +14,7 @@ function Porque() {
         <p>É raro encontrar profissionais compromissados em entregar serviços no prazo acordado, que estejam comprometidos com as necessidades dos clientes e sobre tudo, com a qualidade do serviço prestado.</p>
         <p>Surgimos para mudar esse cenário e nos tornarmos referência em atendimento de excelência, confiabilidade e competência em serviços da construção civil.</p>
       
-        <a href="https://api.whatsapp.com/send/?phone=558422261346&text=Ol%C3%A1%2C%20gostaria%20de%20tirar%20uma%20d%C3%BAvida.&app_absent=0" className="btn-p">
+        <a target='_blank' rel="noreferrer" href="https://api.whatsapp.com/send/?phone=558422261346&text=Ol%C3%A1%2C%20gostaria%20de%20tirar%20uma%20d%C3%BAvida.&app_absent=0" className="btn-p">
           Gostária de tirar alguma dúvida?
         </a>
       </div>

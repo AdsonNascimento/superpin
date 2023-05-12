@@ -12,7 +12,7 @@ function CompreCard() {
           
           <p>Obra é sinônimo de dor de cabeça para muitos. Com a Superpin, sua obra começa e termina no prazo, com excelência em qualidade, segurança e atendimento.</p>
        
-          <a className='btn-p' href="https://api.whatsapp.com/send/?phone=558422261346&text=Ol%C3%A1%2C%20gostaria%20de%20solicitar%20uma%20or%C3%A7amento.&app_absent=0">
+          <a target='_blank' rel="noreferrer" className='btn-p' href="https://api.whatsapp.com/send/?phone=558422261346&text=Ol%C3%A1%2C%20gostaria%20de%20solicitar%20uma%20or%C3%A7amento.&app_absent=0">
             Solicitar orçamento
           </a>
         </div>
