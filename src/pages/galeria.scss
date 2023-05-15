@@ -17,11 +17,11 @@
       .servico {
         display: grid;
         gap: 1rem;
-        width: 40rem;
+        width: 20vw;
 
         img {
           border-radius: 1rem;
-          width: 40rem;
+          width: 20vw;
         }
 
         span {
@@ -54,7 +54,7 @@
   }
 }
 
-@media screen and (max-width: 1580px) {
+@media screen and (max-width: 1180px) {
   #servicos {
     .content-align {
       .servicos {
@@ -64,21 +64,39 @@
   }
 }
 
-@media screen and (max-width: 1180px) {
+@media screen and (max-width: 780px) {
   #servicos {
     .content-align {
       .servicos {
         grid-template-columns: repeat(2, 1fr);
+
+        .servico {
+          width: 40vw;
+
+          img {
+            border-radius: 1rem;
+            width: 40vw;
+          }
+        }
       }
     }
   }
 }
 
-@media screen and (max-width: 780px) {
+@media screen and (max-width: 500px) {
   #servicos {
     .content-align {
       .servicos {
         grid-template-columns: repeat(1, 1fr);
+
+        .servico {
+          width: 80vw;
+
+          img {
+            border-radius: 1rem;
+            width: 80vw;
+          }
+        }
       }
     }
   }

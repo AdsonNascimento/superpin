@@ -31,7 +31,7 @@ const router = createBrowserRouter([
         element: <Galeria />
       },
       {
-        path: 'marista',
+        path: 'projeto/:name',
         element: <Marista />
       }
     ],
