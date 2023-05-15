@@ -75,8 +75,8 @@ function Projetos() {
                 return (
                   <a className="item" href={projeto.urlCategoria} key={index}>
                     <img src={projeto.imagem} alt={`Imagens da contrução do projeto ${projeto.projeto}`} />
-                    <p>{projeto.projeto}</p>
                     <span>{projeto.categoria}</span>
+                    <p>{projeto.projeto}</p>
                   </a>
                 );
               })}

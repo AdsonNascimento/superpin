@@ -6,6 +6,7 @@ import './index.css'
 import Home from './pages/Home.jsx'
 import SobreSuperpin from './pages/SobreSuperpin.jsx'
 import Galeria from './pages/Galeria.jsx'
+import Marista from './pages/Marista.jsx'
 
 import {
   createBrowserRouter,
@@ -28,6 +29,10 @@ const router = createBrowserRouter([
       {
         path: 'galeria',
         element: <Galeria />
+      },
+      {
+        path: 'marista',
+        element: <Marista />
       }
     ],
   },

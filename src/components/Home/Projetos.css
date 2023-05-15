@@ -3,6 +3,8 @@
   gap: 1rem;
 }
 
+
+
 #wrapper {
   width: 100%;
   position: relative;
@@ -54,6 +56,8 @@
 
 #wrapper .item {
   min-width: 300px;
+  display: grid;
+  gap: .75rem;
 }
 
 #wrapper .item:hover p,
@@ -68,18 +72,33 @@
 }
 
 #wrapper .item p {
-  color: var(--blue-dark);
-  font-size: 2rem;
-  margin: 15px 0 5px 0;
+  font-size: calc(1rem + .75vw);
+  color: rgb(56, 56, 56);
 }
 
 #wrapper .item span {
-  color: var(#9499a3);
   font-size: 1.5rem;
   transition: .3s;
+  color: var(--blue-dark);
+  font-weight: 600;
+  margin-left: 2rem;
+  position: relative;
+}
+
+#wrapper .item span::before {
+  content: "";
+  width: 1.25rem;
+  height: 1px;
+  background-color: var(--blue-dark);
+
+  position: absolute;
+  left: -2rem;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 @media screen and (max-width: 500px) {
+
   #prev,
   #next {
     display: none;
