@@ -11,7 +11,7 @@ function Marista() {
       "categoria": "SERVIÇO DE PINTURA",
       "titulo": "Colégio Marista - Natal/RN",
       "descicao": "Participamos da construção da obra com +10.000 m² de superfície pintada",
-      "urlCapa": "https://superpin.vercel.app/projeto-marista/fachadaMarista.jpg",
+      "urlCapa": "https://github.com/AdsonNascimento/superpin/blob/main/public/fotos-projeto-marista/fachadaMarista.jpg",
       "artigo": "Realizamos a obra durante o ano de 2022 em parceria com a Lopez Marinho Engenharia e Construções, construtora com sede no Rio de Janeiro, e o Colégio Marista. Através da indicação de um cliente, a Lopes Marinho entrou em contato conosco apresentando a obra e os seus desafios: curto prazo para execução e necessidade de alto padrão de qualidade. Sabemos que a pintura é a última etapa da obra e, por isso, muitas vezes acaba absorvendo atrasos de outras etapas para a obra ser entregue no tempo certo. O desafio de entregar a obra no prazo era devido a necessidade do colégio estar pronto para as aulas do ano letivo de 2023. O Colégio Marista é uma rede de escola tradicional no país e conhecida pela sua qualidade, o serviço de pintura a ser executado na sua nova escola não poderia ser diferente. Foram utilizados as melhores técnicas e os melhores materiais na obra resultando em um excelente acabamento.",
       "data": "2023",
       "local": "Colégio Marista",
