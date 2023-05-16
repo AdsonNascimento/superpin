@@ -1,5 +1,6 @@
 // import './Projetos.scss';
 import './Projetos.css';
+import { Link } from 'react-router-dom';
 
 import img01 from '../../assets/projetos/impermeabilizacao-muros.webp';
 import img02 from '../../assets/projetos/manutencao-parque-eolico.webp';
@@ -13,52 +14,52 @@ import img08 from '../../assets/projetos/fachada-marista.webp';
 function Projetos() {
   const projetos = [
     {
+      imagem: img08,
+      projeto: 'Colégio Marista - Natal/RN',
+      categoria: 'Serviço de Pintura',
+      urlCategoria: '/projeto/marista'
+    },
+    {
       imagem: img01,
       projeto: 'Impermeabilização de muros',
       categoria: 'Serviço de Impermeabilização',
-      urlCategoria: 'https://superpin.com.br/impermeabilizacao.html'
+      urlCategoria: '/projeto/impermeabilicao-muros'
     },
     {
       imagem: img02,
       projeto: 'Manutenção de parque eólico',
       categoria: 'Serviço de Pintura',
-      urlCategoria: 'https://superpin.com.br/pintura.html'
+      urlCategoria: '/projeto/parque-eolico'
     },
     {
       imagem: img03,
       projeto: 'Quadra poliesportiva',
       categoria: 'Serviço de Pintura',
-      urlCategoria: 'https://superpin.com.br/pintura.html'
+      urlCategoria: '/projeto/quadra-poliesportiva'
     },
     {
       imagem: img04,
       projeto: 'Pintura Industrial',
       categoria: 'Serviço de Pintura',
-      urlCategoria: 'https://superpin.com.br/pintura.html'
+      urlCategoria: '/projeto/pintura-industrial'
     },
     {
       imagem: img05,
       projeto: 'Piso epóxi em escola infantil',
       categoria: 'Serviço de Pintura',
-      urlCategoria: 'https://superpin.com.br/pintura.html'
+      urlCategoria: '/projeto/piso-epoxi'
     },
     {
       imagem: img06,
       projeto: 'Pintura de pista de atletismo',
       categoria: 'Serviço de Pintura',
-      urlCategoria: 'https://superpin.com.br/pintura.html'
+      urlCategoria: '/projeto/so-atletismo'
     },
     {
       imagem: img07,
       projeto: 'Manutenção de alambrado',
       categoria: 'Serviço de serralheria e pintura',
-      urlCategoria: 'https://superpin.com.br/fachada.html'
-    },
-    {
-      imagem: img08,
-      projeto: 'Colégio Marista - Natal/RN',
-      categoria: 'Serviço de Pintura',
-      urlCategoria: 'https://superpin.com.br/pintura.html'
+      urlCategoria: '/projeto/manutencao-alambrado'
     },
   ]
 
@@ -73,11 +74,11 @@ function Projetos() {
 
               {projetos.map((projeto, index) => {
                 return (
-                  <a className="item" href={projeto.urlCategoria} key={index}>
+                  <Link className="item" to={projeto.urlCategoria} key={index}>
                     <img src={projeto.imagem} alt={`Imagens da contrução do projeto ${projeto.projeto}`} />
                     <span>{projeto.categoria}</span>
                     <p>{projeto.projeto}</p>
-                  </a>
+                  </Link>
                 );
               })}
 
